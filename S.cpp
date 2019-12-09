@@ -24,7 +24,18 @@ int Function::count(vector<double> doubleVector) {
 	return doubleVector.size();
 
 }
-
+int Function::STD(vector<int>intVector)
+{
+    int sum = 0, mean, standardDeviation = 0;
+    int i;
+    for(i = 0; i < intVector.size (); ++i)
+    {
+        sum += intVector[i];
+    }
+    mean = sum/intVector.size();;
+    for(i = 0; i < intVector.size(); ++i)
+        standardDeviation += pow(intVector[i] - mean, 2);
+    return sqrt(standardDeviation / intVector.size());
 int main() {
 	int x;
 	Function f1;
