@@ -1,8 +1,30 @@
 #include "header.h"
 
 
+int Function:: sum(<#vector<int> intVector#>){
+   int sum  = 0;
+    for (auto x : intVector){
+        sum=sum+x;
+    }
+    return sum;
+  
+}
 
-int Function::sum(vector<int> intVector) {
-	return 0;
+double Function::sum(vector<double>Vector>){
+    double sum=0;
+     for (auto x : intVector){
+           sum=sum+x;
+       }
+    return sum;
+
+}
+
+string Function::sum(vector<string>Vector>){
+    string sum="";
+    for (auto x : intVector){
+        sum=sum+x;
+    }
+
+    return sum;
 
 }
