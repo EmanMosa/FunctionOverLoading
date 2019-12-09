@@ -32,10 +32,11 @@ int Function::STD(vector<int>intVector)
     {
         sum += intVector[i];
     }
-    mean = sum/intVector.size();;
+    mean = sum/intVector.size();
     for(i = 0; i < intVector.size(); ++i)
         standardDeviation += pow(intVector[i] - mean, 2);
-    return sqrt(standardDeviation / intVector.size());
+    return sqrt(standardDeviation / intVector.size
+}
 int main() {
 	int x;
 	Function f1;
