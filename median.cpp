@@ -10,5 +10,6 @@ double Function::median(vector<double> Vector) {
 	return Vector[Vector.size() / 2];
 }
 string Function::median(vector<string> Vector) {
-	return "";
+	std::sort(Vector.begin(), Vector.end());
+	return Vector[Vector.size() / 2];
 }
