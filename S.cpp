@@ -12,6 +12,19 @@ string Function::midle(vector<string>intVector) {
 double Function::midle(vector<double>intVector) {
 	return 0.0;
 }
+int Function::count(vector<int> intVector) {
+	return intVector.size();
+
+}
+int Function::count(vector<string> stringVector) {
+	return stringVector.size();
+
+}
+int Function::count(vector<double> doubleVector) {
+	return doubleVector.size();
+
+}
+
 int main() {
 	int x;
 	Function f1;

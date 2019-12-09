@@ -23,13 +23,13 @@ private:
 	string avg(vector<string>stringVector);
 	string midle(vector<string>stringVector);
 	string STD(vector<string>stringVector);
-	string count(vector<string>stringVector);
+	int count(vector<string>stringVector);
 	double max(vector<double>doubleVector);//Noor
 	double min(vector<double>doubleVector);
 	double sum(vector<double>doubleVector);
 	double avg(vector<double>doubleVector);
 	double midle(vector<double>doubleVector);
 	double STD(vector<double>doubleVector);
-	double count(vector<double>doubleVector);
+	int count(vector<double>doubleVector);
 
 };
