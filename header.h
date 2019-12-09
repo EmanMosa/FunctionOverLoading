@@ -11,28 +11,27 @@ public:
 	vector<int>intVector;
 	vector<string>stringVector;
 	vector<double>doubleVector;
-private:
-	int max(vector<int>intVector);//Noor
-	int min(vector<int>intVector);
-	int sum(vector<int>intVector);
-	int avg(vector<int>intVector);
-	int median(vector<int>intVector);
-	int STD(vector<int>intVector);
-	int count(vector<int>intVector);
-	string max(vector<string>stringVector);//Noor
-	string min(vector<string>stringVector);
-	string sum(vector<string>stringVector);
-	string avg(vector<string>stringVector);
-	string median(vector<string>stringVector);
-	string STD(vector<string>stringVector);
-	int count(vector<string>stringVector);
-	double max(vector<double>doubleVector);//Noor
-	double min(vector<double>doubleVector);
-	double sum(vector<double>doubleVector);
-	double avg(vector<double>doubleVector);
-	double median(vector<double>doubleVector);
-	double STD(vector<double>doubleVector);
-	int count(vector<double>doubleVector);
+	int max(vector<int>Vector);//Noor
+	int min(vector<int>Vector);
+	int sum(vector<int>Vector);
+	int avg(vector<int>Vector);
+	int median(vector<int>Vector);
+	int STD(vector<int>Vector);
+	int count(vector<int>Vector);
+	string max(vector<string>Vector);//Noor
+	string min(vector<string>Vector);
+	string sum(vector<string>Vector);
+	string avg(vector<string>Vector);
+	string median(vector<string>Vector);
+	string STD(vector<string>Vector);
+	int count(vector<string>Vector);
+	double max(vector<double>Vector);//Noor
+	double min(vector<double>Vector);
+	double sum(vector<double>Vector);
+	double avg(vector<double>Vector);
+	double median(vector<double>Vector);
+	double STD(vector<double>Vector);
+	int count(vector<double>Vector);
 
 };
 

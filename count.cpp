@@ -3,15 +3,15 @@
 
 
 
-int Function::count(vector<int> intVector) {
-	return intVector.size();
+int Function::count(vector<int> Vector) {
+	return Vector.size();
 
 }
-int Function::count(vector<string> stringVector) {
-	return stringVector.size();
+int Function::count(vector<string> Vector) {
+	return Vector.size();
 
 }
-int Function::count(vector<double> doubleVector) {
-	return doubleVector.size();
+int Function::count(vector<double> Vector) {
+	return Vector.size();
 
 }

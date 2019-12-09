@@ -2,7 +2,7 @@
 
 
 
-int Function::max(vector<int> intVector) {
+int Function::max(vector<int> Vector) {
 	return 0;
 
 }
