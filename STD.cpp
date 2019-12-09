@@ -4,7 +4,7 @@
 
 
 
-int Function::STD(vector<int>Vector)
+double Function::STD(vector<int>Vector)
 {
 	int sum = 0, mean, standardDeviation = 0;
 	int i;
@@ -15,11 +15,12 @@ int Function::STD(vector<int>Vector)
 	mean = sum / Vector.size();
 	for (i = 0; i < Vector.size(); ++i)
 		standardDeviation += pow(Vector[i] - mean, 2);
-	return int(sqrt(standardDeviation / Vector.size()));
+	return sqrt(standardDeviation / Vector.size());
 }
 
 double Function::STD(vector<double>Vector)
 {
+	//std::cout << "i'm here";
 	double sum = 0, mean, standardDeviation = 0;
 	int i;
 	for (i = 0; i < Vector.size(); ++i)

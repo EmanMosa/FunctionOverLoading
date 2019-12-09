@@ -8,13 +8,13 @@ using namespace std;
 
 
 int main() {
-	int x;
+	double x;
 	Function f1;
 	for (int i = 0; i < 10; i++) {
-		cout << "please enter A vlaue " << i<<endl;
+		cout << "please enter A vlaue " << i+1<<endl;
 		cin >> x;
-		f1.intVector.push_back(x);
+		f1.doubleVector.push_back(x);
 
 	}
-
+	cout<<f1.STD(f1.doubleVector);
 }

@@ -16,14 +16,14 @@ public:
 	int sum(vector<int>Vector);
 	int avg(vector<int>Vector);
 	int median(vector<int>Vector);
-	int STD(vector<int>Vector);
+	double STD(vector<int>Vector);
 	int count(vector<int>Vector);
 	string max(vector<string>Vector);//Noor
 	string min(vector<string>Vector);
 	string sum(vector<string>Vector);
 	string avg(vector<string>Vector);
 	string median(vector<string>Vector);
-	string STD(vector<string>Vector);
+	//string STD(vector<string>Vector);
 	int count(vector<string>Vector);
 	double max(vector<double>Vector);//Noor
 	double min(vector<double>Vector);
