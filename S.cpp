@@ -3,7 +3,40 @@
 #include <vector>
 #include "H.h"
 using namespace std;
-int Function:: midle(vector<int>intVector) {
+
+
+int Function:: sum(<#vector<int> intVector#>){
+   int sum  = 0;
+    for (auto x : intVector){
+        sum=sum+x;
+    }
+    return sum;
+  
+}
+
+double Function::sum(vector<double>Vector>){
+    double sum=0;
+     for (auto x : intVector){
+           sum=sum+x;
+       }
+    return sum;
+
+}
+
+string Function::sum(vector<string>Vector>){
+    string sum="";
+    for (auto x : intVector){
+        sum=sum+x;
+    }
+
+    return sum;
+
+}
+
+
+
+
+       int Function:: midle(vector<int>intVector) {
 	return 0;
 }
 string Function::midle(vector<string>intVector) {
