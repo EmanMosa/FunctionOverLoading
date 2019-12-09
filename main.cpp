@@ -8,13 +8,13 @@ using namespace std;
 
 
 int main() {
-	double x;
+	string x;
 	Function f1;
 	for (int i = 0; i < 10; i++) {
 		cout << "please enter A vlaue " << i+1<<endl;
 		cin >> x;
-		f1.doubleVector.push_back(x);
+		f1.stringVector.push_back(x);
 
 	}
-	cout<<f1.STD(f1.doubleVector);
+	cout<<f1.median(f1.stringVector);
 }
